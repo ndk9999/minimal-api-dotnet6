@@ -1,0 +1,36 @@
+@XiaodiYan_FirstApiV8_HostAddress = http://localhost:5041
+
+GET {{XiaodiYan_FirstApiV8_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+GET {{XiaodiYan_FirstApiV8_HostAddress}}/api/posts
+Accept: application/json
+
+###
+GET {{XiaodiYan_FirstApiV8_HostAddress}}/api/posts/1
+Accept: application/json
+
+###
+POST {{XiaodiYan_FirstApiV8_HostAddress}}/api/posts
+Accept: application/json
+Content-Type: application/json
+
+{
+    "id": 2,
+    "title": "Web API Development with ASP.NET Core 8",
+    "body": "Learn Techniques, Patterns, and Tools for Building High-performance, Robust, and Scalable Web APIs.",
+    "userId": 1
+}
+
+###
+PUT {{XiaodiYan_FirstApiV8_HostAddress}}/api/posts/1
+Accept: application/json
+Content-Type: application/json
+
+{
+    "id": 1,
+    "title": "Hello ASP.NET Core",
+    "body": "ASP.NET Core is a cross-platform, high-performance, open-source framework for building modern, cloud-enabled, Internetconnected apps.",
+    "userId": 2
+}

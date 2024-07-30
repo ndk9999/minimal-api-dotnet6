@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatrickGod.SuperHero", "PatrickGod.SuperHero\PatrickGod.SuperHero.csproj", "{6ED16C71-CC32-4626-8203-1BEA1C59BB55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Packtpub.MasteringApi", "Packtpub.MasteringApi\Packtpub.MasteringApi.csproj", "{3A38ED3E-A066-4F6C-99D3-0B48210479A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XiaodiYan.FirstApiV8", "XiaodiYan.FirstApiV8\XiaodiYan.FirstApiV8.csproj", "{D8BAE6B8-253E-41AD-8B8F-71E8FEB46E7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{6ED16C71-CC32-4626-8203-1BEA1C59BB55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6ED16C71-CC32-4626-8203-1BEA1C59BB55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6ED16C71-CC32-4626-8203-1BEA1C59BB55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A38ED3E-A066-4F6C-99D3-0B48210479A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A38ED3E-A066-4F6C-99D3-0B48210479A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A38ED3E-A066-4F6C-99D3-0B48210479A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A38ED3E-A066-4F6C-99D3-0B48210479A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8BAE6B8-253E-41AD-8B8F-71E8FEB46E7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8BAE6B8-253E-41AD-8B8F-71E8FEB46E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8BAE6B8-253E-41AD-8B8F-71E8FEB46E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8BAE6B8-253E-41AD-8B8F-71E8FEB46E7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
